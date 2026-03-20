@@ -619,7 +619,7 @@
     {
       "parameters": {
         "chatId": "={{ $('設定全域參數').item.json.tid}}",
-        "text": "=✅ 報名成功\n姓名：{{ $json[\"姓名\"] }} \n日期：{{ $json[\"報名日期\"] }} ",
+"text": "=✅ 報名成功\n姓名：{{ $json['userName'] }}\n日期：{{ $json['finalDate'] }}\n報考車種：{{ $json['targetType'] }}\n考試地點：{{ $json['targetDmv']}}\n強烈建議自行人工複查"
         "additionalFields": {}
       },
       "type": "n8n-nodes-base.telegram",
