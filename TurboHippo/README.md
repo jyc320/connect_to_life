@@ -73,6 +73,9 @@
     5. 儲存並啟用工作流，於 Telegram 測試 `/start` 指令。
 * **[完整互動 JSON](JSON設定檔/搶駕照(interactive_public).json)** 
 
+* 工作流匯入後樣式
+
+<img src="picture/workflow.png" alt="n8n workflow">
 
 ## ⚙️ 系統運行機制
 
